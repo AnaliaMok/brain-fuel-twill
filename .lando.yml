@@ -11,3 +11,12 @@ tooling:
     service: node
   npm:
     service: node
+  # Server Helpers
+  setup:
+    description: First-time setup command
+    service: appserver
+    cmd:
+      - composer install
+      - cp /app/.env.example /app/.env
+      - php artisan key:generate
+      - php artisan migrate

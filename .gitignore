@@ -13,3 +13,7 @@ yarn-error.log
 # Editor Fields
 .idea
 .vscode
+
+# Personal Notes
+*.md
+!readme.md
