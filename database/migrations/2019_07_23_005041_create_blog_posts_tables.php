@@ -21,11 +21,13 @@ class CreateBlogPostsTables extends Migration
         });
 
         // ie. using the HasSlug trait
+        // holds slug history
         Schema::create('blog_post_slugs', function (Blueprint $table) {
             createDefaultSlugsTableFields($table, 'blog_post');
         });
 
         // ie. using the HasRevisions trait
+        // holds revision history
         Schema::create('blog_post_revisions', function (Blueprint $table) {
             createDefaultRevisionsTableFields($table, 'blog_post');
         });

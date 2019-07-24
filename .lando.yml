@@ -6,6 +6,11 @@ config:
   xdebug: true
   php: 7.3
   database: mysql
+services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
 tooling:
   node:
     service: node

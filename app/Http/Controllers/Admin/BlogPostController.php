@@ -7,4 +7,5 @@ use A17\Twill\Http\Controllers\Admin\ModuleController;
 class BlogPostController extends ModuleController
 {
     protected $moduleName = 'blogPosts';
+    protected $previewView = 'site.blogPosts.show';
 }
