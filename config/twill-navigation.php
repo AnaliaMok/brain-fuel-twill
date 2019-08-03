@@ -1,10 +1,10 @@
 <?php
 
 return [
-    // 'blog_posts' => [
-    //     'title' => 'BlogPosts',
-    //     'module' => true
-    // ],
+    'blogPosts' => [
+        'title' => 'BlogPosts',
+        'module' => true
+    ],
     'settings' => [
         'title' => 'Settings',
         'route' => 'admin.settings',
