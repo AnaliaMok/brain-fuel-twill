@@ -20,7 +20,7 @@ class CreateBlogPostsTables extends Migration
             createDefaultTranslationsTableFields($table, 'blog_post');
             $table->string('title', 200)->nullable();
             $table->text('description')->nullable();
-            $table->longText('body')->nullable();
+            $table->text('body')->nullable();
         });
 
         // ie. using the HasSlug trait

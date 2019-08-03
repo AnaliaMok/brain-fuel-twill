@@ -17,17 +17,19 @@ class BlogPost extends Model
         'published',
         'title',
         'description',
+        'body',
         // 'position',
-        // 'public',
-        // 'featured',
-        // 'publish_start_date',
-        // 'publish_end_date',
+        'public',
+        'featured',
+        'publish_start_date',
+        'publish_end_date',
     ];
 
     public $translatedAttributes = [
         'title',
         'description',
         'active',
+        'body',
     ];
 
     public $slugAttributes = [

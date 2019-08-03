@@ -10,7 +10,7 @@
     [ 'header' => [2, 3, 4, 5, 6, false] ],
     'bold', 'italic', 'underline', 'strike',
     'list-ordered', 'list-unordered', [ 'indent' => '-1'], [ 'indent' => '+1' ],
-    'link', 'sup', 'sub',
+    'link',
   ],
   'translated' => true,
   'rows' => 10,

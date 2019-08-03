@@ -2,6 +2,6 @@
 
 return [
     'enabled' => [
-        'settings' => true
+        'settings' => true,
     ]
 ];

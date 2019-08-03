@@ -8,10 +8,21 @@
         'maxlength' => 100
     ])
 
-    @include('admin.partials.default-wysiwyg', ['name' => 'body', 'label' => 'Body'])
-
     @formField('medias', [
         'name' => 'cover',
         'label' => 'Cover image',
+    ])
+
+    @formField('wysiwyg', [
+        'name' => 'body',
+        'label' => 'Body',
+        'toolbarOptions' => [
+            [ 'header' => [2, 3, 4, 5, 6, false] ],
+            'bold', 'italic', 'underline', 'strike',
+            'list-ordered', 'list-unordered', [ 'indent' => '-1'], [ 'indent' => '+1' ],
+            'link',
+        ],
+        'translated' => true,
+        'editSource' => true,
     ])
 @stop
