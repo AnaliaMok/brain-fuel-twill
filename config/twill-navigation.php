@@ -1,9 +1,15 @@
 <?php
 
 return [
-    'blogPosts' => [
-        'title' => 'BlogPosts',
-        'module' => true
+    'insights' => [
+        'title' => 'Insights',
+        'route' => 'admin.insights.blogPosts.index',
+        'primary_navigation' => [
+            'blogPosts' => [
+                'title' => 'BlogPosts',
+                'module' => true
+            ],
+        ],
     ],
     'settings' => [
         'title' => 'Settings',

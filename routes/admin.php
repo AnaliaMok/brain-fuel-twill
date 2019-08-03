@@ -1,4 +1,6 @@
 <?php
 
 // Register Twill routes here (eg. Route::module('yourModuleNameHere'))
-Route::module('blogPosts');
+Route::group(['prefix' => 'insights'], function () {
+    Route::module('blogPosts');
+});
