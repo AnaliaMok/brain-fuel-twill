@@ -6,9 +6,13 @@ return [
         'route' => 'admin.insights.blogPosts.index',
         'primary_navigation' => [
             'blogPosts' => [
-                'title' => 'BlogPosts',
+                'title' => 'Blog Posts',
                 'module' => true
             ],
+            'pressReleases' => [
+                'title' => 'Press Releases',
+                'module' => true
+            ]
         ],
     ],
     'settings' => [
